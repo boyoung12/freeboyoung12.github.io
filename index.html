@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<title>Document</title>
+  </head>
+  <body>
+	<!-- 구글검색 -->
+	<form class="byHead" action="http://www.google.co.kr/search" target="_blank">
+		<div>
+			<a href="http://google.com">Google</a>
+			<i class="fas fa-search"></i>
+			<input name="query"  required placeholder="Google serch" value="">
+		</div>
+	<!-- 날씨 -->
+		<div id="weather">
+			<span></span>
+			<span></span>
+		</div>
+	</form>
+	<!-- 시간 및 시계 -->
+	<main class="clock">
+		<span></span>
+		<span></span>
+	</main>
+	<!-- 이름  -->
+	<form id="byName">
+		<input class="hidden" type="text" placeholder="What is your name?">
+		<h3></h3>
+	</form>
+	<!-- 투두  -->
+	<form id="todo">
+		<label for="todo-one">What is your main focus for today?</label>
+		<input id="todo-one" type="text">
+	</form>
+	<ul id="todo-ul"></ul>
+	<!-- 명언  -->
+	<footer class="quote">
+		<span></span>
+		<br>
+		<span></span>
+	</footer>
+	<script src="js/clock.js"></script>
+	<script src="js/quote.js"></script>
+	<script src="js/weather.js"></script>
+	<script src="js/byName.js"></script>
+	<script src="js/todo.js"></script>
+	<script src="js/bgimege.js"></script>
+
+  </body>
+</html>
